@@ -142,4 +142,8 @@ var replies = []Reply{
 		pattern: `java.*(download|runtime|environment)`,
 		message: "Java download: https://www.java.com/download/",
 	},
+	{
+		pattern: `how\s*(mine|auto\s?mine)`,
+		message: "Java download: https://www.java.com/download/",
+	},
 }
